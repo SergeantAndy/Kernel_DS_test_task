@@ -1,0 +1,50 @@
+data_validation:
+  read_path:
+    train_data: data/train.csv
+    test_data: data/test.csv
+
+  column_mapping:
+    N_kg/ga: 'nitrogen_fertilizer_amount'
+    P_kg/ga: 'phosphorus_fertilizer_amount'
+    K_kg/ga: 'potassium_fertilizer_amount'
+
+  replacement_dict:
+    \(\%\): ''
+
+  categorical_columns: ['field', 'year', 'cluster', 'geozone', 'predecessor']
+
+  imputation:
+    n_neighbors: 5
+    columns_to_impute: ['fao', 'phosphorus_fertilizer_amount', 'potassium_fertilizer_amount']
+
+  columns_to_include: [
+    'field', 'year', 'cluster', 'area', 'yield', 'geozone', 'predecessor', 
+    'fao','22_week_ndvi', '23_week_ndvi','24_week_ndvi', '25_week_ndvi','26_week_ndvi', 
+    '27_week_ndvi', '28_week_ndvi','29_week_ndvi', '30_week_ndvi', '31_week_ndvi', 
+    '32_week_ndvi', '33_week_ndvi', '34_week_ndvi', '35_week_ndvi', '36_week_ndvi', 
+    '37_week_ndvi', '38_week_ndvi', '39_week_ndvi'
+  ]
+
+modeling:
+  split_parameters:
+    target_variable: 'yield'
+    ignore_columns: ['year', 'field']
+
+  model_parameters:
+    learning_rate: 0.042
+    n_estimators: 920
+    num_leaves: 552
+    feature_fraction: 0.72
+    bagging_fraction: 0.73
+    min_child_samples: 28
+    reg_alpha: 0.34
+    reg_lambda: 0.79
+
+output_analysis:
+  wca_parameters:
+    cluster: 'cluster'
+    field: 'field'
+    area: 'area'
+    yield: yield
+
+  output_path: data/test_processed.csv

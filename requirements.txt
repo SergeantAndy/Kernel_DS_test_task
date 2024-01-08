@@ -1,0 +1,15 @@
+# requirements.txt
+
+# Package for handling missing values
+scikit-learn==0.24.2
+
+# Package for handling imputation using KNN
+pandas==1.2.4
+scikit-learn==0.24.2
+
+# Package for handling metrics
+scikit-learn==0.24.2
+lightgbm==3.2.1
+
+# Additional packages
+pyyaml==5.4.1

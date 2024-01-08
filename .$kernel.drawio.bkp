@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-01-03T13:50:19.263Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="p769IIGO4viC8sYGTT9c" version="22.1.16" type="device">
+<mxfile host="Electron" modified="2024-01-03T14:17:59.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="QYNWmfmCdqT9pCXjGF1L" version="22.1.16" type="device">
   <diagram name="Страница — 1" id="P6zPfXbK2_G1ye87zUT7">
     <mxGraphModel dx="2475" dy="3340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -512,10 +512,10 @@
           <mxGeometry x="690" y="-1330" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SxWqTM4sAoQtuf1pBGZt-178" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ID of crop from the previous year for this field&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="-1350" width="270" height="30" as="geometry" />
+          <mxGeometry x="-140" y="-1364" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SxWqTM4sAoQtuf1pBGZt-179" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Hybrid FAO&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-1314" width="100" height="30" as="geometry" />
+        <mxCell id="SxWqTM4sAoQtuf1pBGZt-179" value="&lt;font face=&quot;Helvetica&quot;&gt;hybrid characteristic; the higher the FAO value, the higher the yield of the hybrid&lt;/font&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-1314" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SxWqTM4sAoQtuf1pBGZt-180" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;The amount of applied fertilisers in kg per hectare,&amp;nbsp;&lt;/span&gt;N- nitrogen, P- phosphorus, K- potassium&lt;p style=&quot;margin: 0cm; font-size: 14px; font-family: &amp;quot;Liberation Serif&amp;quot;; line-height: 24px;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Calibri, sans-serif; font-size: 14px;&quot; lang=&quot;EN-GB&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="650" y="-1262" width="300" height="30" as="geometry" />
@@ -555,8 +555,8 @@
         <mxCell id="SxWqTM4sAoQtuf1pBGZt-193" value="&lt;span lang=&quot;EN-GB&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 14px;&quot;&gt;vegetation index [0, 1]. The higher the value, the more likely that there are&lt;br style=&quot;font-size: 14px;&quot;&gt;no diseases in the field, and the crop is healthy&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="650" y="2460" width="560" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SxWqTM4sAoQtuf1pBGZt-194" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="-1710" width="60" height="30" as="geometry" />
+        <mxCell id="SxWqTM4sAoQtuf1pBGZt-196" value="&lt;h1&gt;To do (data cleaning)&lt;/h1&gt;&lt;p&gt;- Validate dtypes&lt;/p&gt;&lt;p&gt;- Rename column names (delete &quot;(%)&quot;, make all lowercase, change fertilizers column names)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="-1720" width="310" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
