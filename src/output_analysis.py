@@ -14,6 +14,7 @@ class OutputAnalysis:
         self.service = service_instance
         self.config = self.service.get_config()
 
+    @Service.log_output
     def calculate_weighted_cluster_average(self, data: pd.DataFrame, save_results: bool = True) -> pd.Series:
         """
         Calculate the weighted cluster average based on area, yield, and field id.
